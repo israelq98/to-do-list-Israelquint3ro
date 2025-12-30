@@ -39,7 +39,7 @@ const Home = () => {
 
 			<h1 className="text-center mt-5">To-Do List</h1>
 			<div className="papelContainer">
-
+			
 				<input className="textoInput" type="text" placeholder="What needs to be done?" value={nuevaTarea} onChange={(e) => setNuevaTarea(e.target.value)} onKeyDown={handleKeyDown} />
 				
 				<ul className="list-group">
