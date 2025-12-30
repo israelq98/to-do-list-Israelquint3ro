@@ -54,7 +54,7 @@ const Home = () => {
 					))}
 							
 				</ul>
-				{tareas.length == 0 && (<p className="text-secondary mt-3"> No remaining tasks to do, add tasks.</p>)}
+				{tareas.length == 0 && (<p className="text-secondary mt-3"> No tasks left, Please add tasks.</p>)}
 		
 				
 			</div>
